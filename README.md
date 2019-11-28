@@ -22,6 +22,8 @@ Isso acontece devido a diversos motivos, entre eles:
 
   > O hardware, com pequenas exceções, é implementado de forma imperativa. E até existem algumas pesquisas sobre implementações de hardware funcional, mas a implementação típica é mesmo a imperativa.
 
+Apesar do curso e desse conteúdo explorarem as EDs mais comuns. Já existem implementações de EDs funcionais pra quase todas as EDs clássicas da ciência da computação cuja complexidade assintônica é a mesma ou menor do que suas versões imperativas.
+
 ## Estruturas de Dados Efêmeras\* e Persistentes
 
 As EDs, como quaisquer outros objetos, podem ser classificadas como efêmeras ou persistentes. Ou seja, se são mutáveis ou imutáveis, se existe apenas uma ou simultaneamente várias a partir das operações.
