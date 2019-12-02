@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "lib": ["es2019"],
+    "target": "es2019",
+
+    // Configurações dos módulos.
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+
+    // Configurações de checagem de tipos e qualidade do código.
+    "alwaysStrict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true
+  }
+}
