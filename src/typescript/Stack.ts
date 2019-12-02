@@ -26,22 +26,20 @@ const pop = <T>(stack: Stack<T>): [null | T, Stack<T>] => [
 
 // Adiciona um elemento na Stack.
 const push = <T>(stack: Stack<T>, value: T): Stack<T> =>
-  Object.freeze(
-    Object.create(null, {
-      head: {
-        value,
-        writable: false,
-        enumerable: true,
-        configurable: false
-      },
-      tail: {
-        value: stack,
-        writable: false,
-        enumerable: true,
-        configurable: false
-      }
-    })
-  );
+  Object.create(null, {
+    head: {
+      value,
+      writable: false,
+      enumerable: true,
+      configurable: false
+    },
+    tail: {
+      value: stack,
+      writable: false,
+      enumerable: true,
+      configurable: false
+    }
+  });
 
 // Obtém o primeiro elemento da Stack.
 const peek = head;
