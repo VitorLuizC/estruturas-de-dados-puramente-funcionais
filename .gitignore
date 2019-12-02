@@ -1,0 +1,5 @@
+# Objetos dos módulos gerados pelo GHC (Haskell).
+*.o
+
+# Interfaces dos módulos gerados pelo GHC (Haskell).
+*.hi
